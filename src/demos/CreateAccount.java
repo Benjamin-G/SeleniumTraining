@@ -1,5 +1,6 @@
 package demos;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -12,7 +13,16 @@ public class CreateAccount {
 
         // 2. Nav to account page >> click on create account
         driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
+        driver.findElement(By.linkText("Create Account")).click();
+
         // 3. Fill out form
+        driver.findElement(By.name("ctl00$MainContent$txtFirstName")).sendKeys("Mary Smith");
+        driver.findElement(By.id("MainContent_txtEmail")).sendKeys("ms@testemail.com");
+
+        driver.findElement(By.xpath("//*[@id=\"MainContent_txtHomePhone\"]")).sendKeys("1231231234"); //rel xpath
+
+        driver.findElement(By.cssSelector("input[id=\"MainContent_txtPassword\"]")).sendKeys("mspass"); //little more common than xpath
+        driver.findElement(By.id("MainContent_txtVerifyPassword")).sendKeys("mspass");
 
         // 4. Get confirmation
 
