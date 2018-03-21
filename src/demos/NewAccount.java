@@ -2,6 +2,7 @@ package demos;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class NewAccount {
@@ -12,44 +13,64 @@ public class NewAccount {
         String password = "mspass";
         String country = "Denmark";
         String phoneNumber = "1231231234";
-        String browserType = "chrome";
+        String browserType = "firefox";
+        String gender = "Female";
+        boolean weeklyEmail = true;
+        boolean monthlyEmail = false;
+        boolean occassionalEmail = false;
+
+        //Define WebDriver
         WebDriver driver;
-
-        String gender;
-        String weeklyEmail;
-        String monthlyEmail;
-        String occassionalEmail;
-
-
-        // 1/2. open browser // Nav to account page >> click on create account
         driver = utilities.DriverFactory.open(browserType);
-
         driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
-
         driver.findElement(By.cssSelector("a.btn")).click();
 
-        // 3. Fill out form
-            driver.findElement(By.name("ctl00$MainContent$txtFirstName")).sendKeys(name);
-            driver.findElement(By.id("MainContent_txtEmail")).sendKeys(email);
+        //Define web elements
+        WebElement nameElement = driver.findElement(By.name("ctl00$MainContent$txtFirstName"));
+        WebElement emailElement = driver.findElement(By.id("MainContent_txtEmail"));
+        WebElement phoneElement = driver.findElement(By.xpath("//*[@id=\"MainContent_txtHomePhone\"]"));
+        WebElement passwordElement = driver.findElement(By.cssSelector("input[id=\"MainContent_txtPassword\"]"));
+        WebElement verifyPasswordElement = driver.findElement(By.id("MainContent_txtVerifyPassword"));
+        WebElement countryElement = driver.findElement(By.id("MainContent_menuCountry"));
+        WebElement maleRadio = driver.findElement(By.id("MainContent_Male"));
+        WebElement femaleRadio = driver.findElement(By.id("MainContent_Female"));
+        WebElement weeklyCheckbox = driver.findElement(By.name("ctl00$MainContent$checkWeeklyEmail"));
 
-            driver.findElement(By.xpath("//*[@id=\"MainContent_txtHomePhone\"]")).sendKeys(phoneNumber); //rel xpath
 
-            driver.findElement(By.cssSelector("input[id=\"MainContent_txtPassword\"]")).sendKeys(password); //little more common than xpath
-            driver.findElement(By.id("MainContent_txtVerifyPassword")).sendKeys(password);
+        // Fill out form
+        nameElement.sendKeys(name);
+        emailElement.sendKeys(email);
+        phoneElement.sendKeys(phoneNumber); //rel xpath
+        passwordElement.sendKeys(password); //little more common than xpath
+        verifyPasswordElement.sendKeys(password);
+        new Select(countryElement).selectByVisibleText(country);
 
-            driver.findElement(By.id("MainContent_Female")).click();
+        // Gender Radio Button Algorithm
+        if(gender.equalsIgnoreCase("Male")){
+            maleRadio.click();
+        } else {
+            femaleRadio.click();
+        }
 
-            new Select(driver.findElement(By.id("MainContent_menuCountry"))).selectByVisibleText(country);
+        // Check Box Algorithm just the weekly atm
+        if (weeklyEmail) {
+            if(!weeklyCheckbox.isSelected()){
+                weeklyCheckbox.click();
+            }
+        } else {
+            if(!weeklyCheckbox.isSelected()) {
+                weeklyCheckbox.click();
+            }
+        }
 
-            driver.findElement(By.name("ctl00$MainContent$checkWeeklyEmail")).click();
+        // Submit
+        driver.findElement(By.id("MainContent_btnSubmit")).click();
 
-            driver.findElement(By.id("MainContent_btnSubmit")).click();
-
-        // 4. Get confirmation
+        // Get confirmation
         String conf = driver.findElement(By.id("MainContent_lblTransactionResult")).getText();
         System.out.println("CONFRIMATION: "+conf);
 
-        // 5. Close the browser
+        // Close the browser
         driver.close();
     }
 }
