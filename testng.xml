@@ -1,3 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/brgey/SDET/Workspaces/SeleniumTraining/src/smoketests/ATagTest.java"><classes><class name="smoketests.ATagTest"><methods><include name="loginElementsPresentTest"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/brgey/SDET/Workspaces/SeleniumTraining/src/smoketests/LoginPresentTestNG.java"><classes><class name="smoketests.LoginPresentTestNG"><methods><include name="loginElementsPresentTest"/></methods></class></classes></test></suite>

@@ -17,10 +17,23 @@ public class ATagTest {
     @Test
     public void loginElementsPresentTest() {
         System.out.println("Running test");
+        boolean createAccountPresent = false;
 
+        // Making a List of all A tags
         List<WebElement> aElements = driver.findElements(By.tagName("a"));
 
-        for (WebElement aElement : aElements) System.out.println(aElement.getText());
+        int numOfAElements = aElements.size();
+        System.out.println("There are "+numOfAElements+" on the page.");
+
+        for (WebElement aElement : aElements) {
+            System.out.println(aElement.getText());
+            if(aElement.getText().equals("CREATE ACCOUNT")){
+                createAccountPresent = true;
+            }
+        }
+
+        // Assertion
+        Assert.assertTrue(createAccountPresent);
     }
 
     @BeforeMethod
