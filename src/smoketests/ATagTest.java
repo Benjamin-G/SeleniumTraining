@@ -15,7 +15,7 @@ public class ATagTest {
     WebDriver driver;
 
     @Test
-    public void loginElementsPresentTest() {
+    public void aTagsTest() {
         System.out.println("Running test");
         boolean createAccountPresent = false;
 
@@ -29,6 +29,7 @@ public class ATagTest {
             System.out.println(aElement.getText());
             if(aElement.getText().equals("CREATE ACCOUNT")){
                 createAccountPresent = true;
+                break;
             }
         }
 
