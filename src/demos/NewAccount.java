@@ -35,7 +35,7 @@ public class NewAccount {
         WebElement maleRadio = driver.findElement(By.id("MainContent_Male"));
         WebElement femaleRadio = driver.findElement(By.id("MainContent_Female"));
         WebElement weeklyCheckbox = driver.findElement(By.name("ctl00$MainContent$checkWeeklyEmail"));
-        WebElement submmitButton = driver.findElement(By.id("MainContent_btnSubmit"));
+        WebElement submitButton = driver.findElement(By.id("MainContent_btnSubmit"));
 
 
         // Fill out form
@@ -65,7 +65,7 @@ public class NewAccount {
         }
 
         // Submit
-        submmitButton.click();
+        submitButton.click();
 
         // Get confirmation
         String conf = driver.findElement(By.id("MainContent_lblTransactionResult")).getText();

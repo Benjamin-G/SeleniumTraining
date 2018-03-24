@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="137313ff-0e98-4489-95ac-8feab2efbbdc" name="Default" comment="Initial Commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/demos/DataReaders.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/NewAccountDDT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/utilities/CSV.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTraining/smoketests/ATagTest.class" afterPath="$PROJECT_DIR$/out/production/SeleniumTraining/smoketests/ATagTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/smoketests/ATagTest.java" afterPath="$PROJECT_DIR$/src/smoketests/ATagTest.java" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
+      <change beforePath="$PROJECT_DIR$/src/demos/NewAccount.java" afterPath="$PROJECT_DIR$/src/demos/NewAccount.java" />
+      <change beforePath="$PROJECT_DIR$/src/tests/NewAccountDDT.java" afterPath="$PROJECT_DIR$/src/tests/NewAccountDDT.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,53 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageTitleJUnit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smoketests/PageTitleJUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPresentTestNG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smoketests/LoginPresentTestNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ATagTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smoketests/ATagTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/CSV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#385#395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataReaders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demos/DataReaders.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +34,22 @@
         <entry file="file://$PROJECT_DIR$/src/tests/NewAccountDDT.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#3908#3909#0" expanded="true" />
+                <element signature="e#3982#3983#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/demos/NewAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -128,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/demos/Login.java" />
         <option value="$PROJECT_DIR$/src/demos/CreateAccount.java" />
         <option value="$PROJECT_DIR$/src/utilities/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/demos/NewAccount.java" />
         <option value="$PROJECT_DIR$/src/smoketests/PageTitleJUnit.java" />
         <option value="$PROJECT_DIR$/src/smoketests/LoginPresentTest.java" />
         <option value="$PROJECT_DIR$/src/smoketests/LoginPresentTestNGTest.java" />
@@ -138,6 +100,8 @@
         <option value="$PROJECT_DIR$/src/smoketests/ATagTest.java" />
         <option value="$PROJECT_DIR$/src/utilities/CSV.java" />
         <option value="$PROJECT_DIR$/src/demos/DataReaders.java" />
+        <option value="$PROJECT_DIR$/src/demos/NewAccount.java" />
+        <option value="$PROJECT_DIR$/src/tests/NewAccountDDT.java" />
       </list>
     </option>
   </component>
@@ -175,6 +139,18 @@
               <item name="SeleniumTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumTraining" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumTraining" type="b2602c69:ProjectViewProjectNode" />
@@ -226,7 +202,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataReaders">
+  <component name="RunManager" selected="JUnit.NewAccountDDT">
+    <configuration name="NewAccountDDT" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumTraining" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NewAccountDDT" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NewAccountDDT.newAccountTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumTraining" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NewAccountDDT" />
+      <option name="METHOD_NAME" value="newAccountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -267,6 +293,56 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="NewAccountDDT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumTraining" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NewAccountDDT" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NewAccountDDT.newAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumTraining" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NewAccountDDT" />
+      <option name="METHOD_NAME" value="newAccountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -293,97 +369,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumTraining" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ATagTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumTraining" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="smoketests" />
-      <option name="MAIN_CLASS_NAME" value="smoketests.ATagTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="C:/Users/brgey/SDET/Workspaces/SeleniumTraining/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SeleniumTraining" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -412,38 +397,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="smoketests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumTraining" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="smoketests" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -451,19 +404,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG." />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.smoketests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ATagTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/brgey/SDET/Workspaces/SeleniumTraining/testng.xml" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DataReaders" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DataReaders" />
+      <item index="1" class="java.lang.String" itemvalue="Android JUnit.NewAccountDDT.newAccountTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NewAccountDDT.newAccountTest" />
+      <item index="3" class="java.lang.String" itemvalue="Android JUnit.NewAccountDDT" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NewAccountDDT" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DataReaders" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.smoketests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/brgey/SDET/Workspaces/SeleniumTraining/testng.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ATagTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG." />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NewAccountDDT" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.NewAccountDDT.newAccountTest" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.NewAccountDDT" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NewAccountDDT.newAccountTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DataReaders" />
       </list>
     </recent_temporary>
   </component>
@@ -492,35 +445,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ATagTest - 2018.03.23 at 18h 53m 00s.xml">
-      <configuration name="ATagTest" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 12h 28m 22s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ATagTest - 2018.03.23 at 18h 53m 03s.xml">
-      <configuration name="ATagTest" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 12h 31m 25s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ATagTest - 2018.03.23 at 18h 54m 52s.xml">
-      <configuration name="ATagTest" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 12h 34m 44s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ATagTest - 2018.03.23 at 18h 57m 17s.xml">
-      <configuration name="ATagTest" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 12h 55m 46s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C__Users_brgey_SDET_Workspaces_SeleniumTraining_testng_xml - 2018.03.23 at 18h 59m 50s.xml">
-      <configuration name="C:/Users/brgey/SDET/Workspaces/SeleniumTraining/testng.xml" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 03m 10s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageTitleJUnit - 2018.03.21 at 16h 02m 30s.xml">
-      <configuration name="PageTitleJUnit" configurationId="AndroidJUnit" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 04m 04s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageTitleJUnit_pageTitleTest - 2018.03.21 at 15h 36m 19s.xml">
-      <configuration name="PageTitleJUnit.pageTitleTest" configurationId="JUnit" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 05m 01s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageTitleJUnit_pageTitleTest - 2018.03.21 at 15h 37m 14s.xml">
-      <configuration name="PageTitleJUnit.pageTitleTest" configurationId="JUnit" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 05m 25s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="smoketests - 2018.03.22 at 13h 48m 02s.xml">
-      <configuration name="smoketests" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 10m 23s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="smoketests - 2018.03.23 at 19h 02m 18s.xml">
-      <configuration name="smoketests" configurationId="TestNG" />
+    <history-entry file="NewAccountDDT - 2018.03.24 at 13h 15m 42s.xml">
+      <configuration name="NewAccountDDT" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -535,7 +488,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5763889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31558642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.021367522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942098" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -737,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demos/NewAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/smoketests/LoginPresentTestNG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -814,11 +757,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/demos/NewAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/NewAccountDDT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#3908#3909#0" expanded="true" />
+            <element signature="e#3982#3983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
