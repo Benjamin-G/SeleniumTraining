@@ -46,6 +46,7 @@ public class Expedia {
         driver.findElement(By.id(starRating)).click();
 
         // 3. Analyze the results and make our selection
+        // Awaiting
         Thread.sleep(7000);
 
         WebDriverWait wait = new WebDriverWait(driver, 6);
