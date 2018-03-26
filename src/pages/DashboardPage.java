@@ -10,6 +10,10 @@ public class DashboardPage {
         return driver.findElement(By.id("conf_message")).getText();
     }
 
+    public String title() {
+        return driver.getTitle();
+    }
+
     public void changePassword() {
         driver.findElement(By.linkText("Change password")).click();
     }

@@ -1,7 +1,10 @@
 package tests;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+
+import pages.DashboardPage;
 import pages.LoginPage;
 
 public class Login {
@@ -14,10 +17,20 @@ public class Login {
 
         // 2. Enter the login info (Login Page)
         LoginPage loginPage = new LoginPage(driver);
+        loginPage.setUserName("tim@testemail.com");
+        loginPage.setPassword("trpass");
+        loginPage.clickSubmit();
 
         // 3. Get confirmation (Dashboard Page)
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        String conf = dashboardPage.confrimationMessage();
+        String title = dashboardPage.title();
 
-        // 4. Close the driver
+        // 4. Assertions
+        Assert.assertTrue(conf.contains("success"));
+        Assert.assertTrue(title.contains("Account"));
+
+        // 5. Close the driver
         driver.quit();
     }
 }
