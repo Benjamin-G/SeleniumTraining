@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/tests/Expedia.java" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/src/tests/Expedia.java" line="78" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137313ff-0e98-4489-95ac-8feab2efbbdc" name="Default" comment="Initial Commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/Expedia.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTraining/demos/DataReaders.class" afterPath="$PROJECT_DIR$/out/production/SeleniumTraining/demos/DataReaders.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumTraining/tests/NewAccountDDT.class" afterPath="$PROJECT_DIR$/out/production/SeleniumTraining/tests/NewAccountDDT.class" />
-      <change beforePath="$PROJECT_DIR$/src/demos/DataReaders.java" afterPath="$PROJECT_DIR$/src/demos/DataReaders.java" />
-      <change beforePath="$PROJECT_DIR$/src/tests/LoginDDT.java" afterPath="$PROJECT_DIR$/src/tests/LoginDDT.java" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Expedia.java" afterPath="$PROJECT_DIR$/src/tests/Expedia.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +25,13 @@
       <file leaf-file-name="Expedia.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/Expedia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state relative-caret-position="799">
+              <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2391#2399#0" expanded="true" />
+                <element signature="e#3455#3456#0" expanded="true" />
+                <element signature="e#3484#3485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
+    <option name="x" value="993" />
+    <option name="width" value="1574" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -424,39 +422,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Expedia - 2018.03.25 at 15h 13m 29s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 20h 55m 24s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 16m 37s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 20h 56m 28s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 17m 37s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 00m 27s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 22m 43s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 01m 47s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 24m 05s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 03m 39s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 30m 36s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 04m 04s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 30m 54s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 13m 03s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 31m 52s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 13m 23s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 34m 29s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 17m 07s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Expedia - 2018.03.25 at 15h 34m 55s.xml">
+    <history-entry file="Expedia - 2018.03.25 at 21h 33m 49s.xml">
       <configuration name="Expedia" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="993" y="0" width="1574" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,7 +471,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15727699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12901156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -781,10 +779,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/Expedia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state relative-caret-position="799">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2391#2399#0" expanded="true" />
+            <element signature="e#3455#3456#0" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
           </folding>
         </state>
       </provider>
